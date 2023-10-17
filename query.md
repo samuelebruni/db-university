@@ -6,4 +6,4 @@
 5) 👉 SELECT * FROM exams WHERE date = '2020-06-20' AND hour > '14:00:00';
 6) 👉 SELECT * FROM `degrees` WHERE level ='magistrale';
 7) 👉 SELECT COUNT(0) AS 'Numero Dipartimenti' FROM departments;
-8) 👉 SELECT * FROM teachers WHERE phone IS NULL;
+8) 👉 SELECT COUNT(*) AS 'Quante Insegnanti non hanno inserito il numero di telefono' FROM teachers WHERE phone is not null;
